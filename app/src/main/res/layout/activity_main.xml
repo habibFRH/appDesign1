@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/red"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="RED"
+    android:background="#AF362B"
+    android:textSize="28dp"
+    android:layout_marginTop="250dp"
+    android:layout_marginLeft="50dp"
+    />
+
+    <TextView
+        android:id="@+id/orange"
+        android:layout_below="@id/red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ORANGE"
+        android:background="#FF7700"
+        android:layout_marginLeft="100dp"
+        android:textSize="28dp"
+        />
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orange"
+        android:text="YELLOW"
+        android:background="#E1BC3A"
+        android:textSize="28dp"
+        android:layout_marginLeft="210dp"
+        />
+    <TextView
+        android:id="@+id/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GREEN"
+        android:layout_below="@id/yellow"
+        android:background="#3E8245"
+        android:layout_marginLeft="315dp"
+        android:textSize="26dp"
+        />
+    <TextView
+        android:id="@+id/blue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE"
+        android:layout_below="@id/green"
+        android:layout_marginLeft="255dp"
+        android:background="#468499"
+        android:textSize="28dp"
+        />
+
+
+    <TextView
+        android:id="@+id/indigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INDIGO"
+        android:layout_below="@id/blue"
+        android:layout_marginLeft="150dp"
+        android:background="#393D76"
+        android:textSize="28dp"
+        />
+
+    <TextView
+        android:id="@+id/violet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIOLET"
+        android:layout_below="@id/indigo"
+        android:background="#C90076"
+        android:textSize="28dp"
+        android:layout_marginLeft="50dp"
+        />
+
+
+</RelativeLayout>
